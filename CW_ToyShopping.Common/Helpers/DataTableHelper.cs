@@ -8,6 +8,10 @@ using System.Text;
 
 namespace CW_ToyShopping.Common.Helpers
 {
+    /// <summary>
+    /// DataTable转换类
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class DataTableHelper<T> where T: class
     {
         public static List<T> DataTableConvertToModel(DataTable dt)

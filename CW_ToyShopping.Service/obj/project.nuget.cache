@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RhZ84+QYXabXH5aQWlkMkNp+sajVM0N0a2H1I5QXl5l5P4+QFauAif38fxX+cUeIetEGMBHqfLLGPRuQZEy2RQ==",
+  "dgSpecHash": "Auur3ZqzKiXooOuup301PZa4VYduIVSbfxgE1mQ8+pE4YF2LNVNUuNSyVGPPOuusSGpbj6Ah7bbk3GnfgldTPQ==",
   "success": true,
-  "projectFilePath": "G:\\ElePhantUi-后端\\CW_ToyShopping\\CW_ToyShopping.Service\\CW_ToyShopping.Service.csproj",
+  "projectFilePath": "F:\\CW_ToyShopping\\CW_ToyShopping.Service\\CW_ToyShopping.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
