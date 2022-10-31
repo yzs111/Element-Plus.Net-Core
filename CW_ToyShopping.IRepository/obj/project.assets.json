@@ -2360,11 +2360,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ElePhantUi-后端\\CW_ToyShopping\\CW_ToyShopping.IRepository\\CW_ToyShopping.IRepository.csproj",
+      "projectUniqueName": "F:\\CW_ToyShopping\\CW_ToyShopping.IRepository\\CW_ToyShopping.IRepository.csproj",
       "projectName": "CW_ToyShopping.IRepository",
-      "projectPath": "G:\\ElePhantUi-后端\\CW_ToyShopping\\CW_ToyShopping.IRepository\\CW_ToyShopping.IRepository.csproj",
+      "projectPath": "F:\\CW_ToyShopping\\CW_ToyShopping.IRepository\\CW_ToyShopping.IRepository.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\ElePhantUi-后端\\CW_ToyShopping\\CW_ToyShopping.IRepository\\obj\\",
+      "outputPath": "F:\\CW_ToyShopping\\CW_ToyShopping.IRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2381,8 +2381,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "G:\\ElePhantUi-后端\\CW_ToyShopping\\CW_ToyShopping.Common\\CW_ToyShopping.Common.csproj": {
-              "projectPath": "G:\\ElePhantUi-后端\\CW_ToyShopping\\CW_ToyShopping.Common\\CW_ToyShopping.Common.csproj"
+            "F:\\CW_ToyShopping\\CW_ToyShopping.Common\\CW_ToyShopping.Common.csproj": {
+              "projectPath": "F:\\CW_ToyShopping\\CW_ToyShopping.Common\\CW_ToyShopping.Common.csproj"
             }
           }
         }
@@ -2411,7 +2411,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
