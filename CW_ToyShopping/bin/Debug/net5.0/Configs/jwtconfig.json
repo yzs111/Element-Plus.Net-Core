@@ -1,0 +1,7 @@
+{
+  "Issuer": "demo_issuer",
+
+  "Audienec": "demo_audience",
+
+  "Key": "<your_secret_key>"
+}

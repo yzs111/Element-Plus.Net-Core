@@ -1,0 +1,48 @@
+2022-05-23 10:22:19.5984 FATAL 服务器发生异常:Value cannot be null. (Parameter 'key')System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.ValidateCacheKey(Object key)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at CW_ToyShopping.Common.Cache.MemoryCache.Exists(String key) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Cache\MemoryCache.cs:line 37
+   at CW_ToyShopping.Service.UserServices.UserService.GetUserList(PageInput`1 input) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\UserService.cs:line 58
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.ListUsers(PageInput`1 input) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 36
+   at lambda_method8(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-05-23 10:24:15.3394 FATAL 服务器发生异常:Index was outside the bounds of the array.System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CW_ToyShopping.Service.UserServices.UserService.GetUserList(PageInput`1 input)
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.ListUsers(PageInput`1 input) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 36
+   at lambda_method8(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-05-23 10:24:19.8465 FATAL 服务器发生异常:Index was outside the bounds of the array.System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CW_ToyShopping.Service.UserServices.UserService.GetUserList(PageInput`1 input)
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.ListUsers(PageInput`1 input) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 36
+   at lambda_method8(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 

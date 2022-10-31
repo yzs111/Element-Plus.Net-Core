@@ -1,0 +1,15 @@
+2022-06-21 15:19:23.6024 FATAL 服务器发生异常:推送失败,原因: {"errcode":40008,"errmsg":"invalid message type, hint: [1655795823065490280749731], from ip: 222.217.19.244, more info at https://open.work.weixin.qq.com/devtool/query?e=40008","msgid":"fcLc6UhB2absSaoEDgOVFII9IoAEgXi7WkAR16s1NfTTiXW4AUv1DKy138XcKeMM_0ceo1MLq9ef4SbmtKWPbw"}System.Exception: 推送失败,原因: {"errcode":40008,"errmsg":"invalid message type, hint: [1655795823065490280749731], from ip: 222.217.19.244, more info at https://open.work.weixin.qq.com/devtool/query?e=40008","msgid":"fcLc6UhB2absSaoEDgOVFII9IoAEgXi7WkAR16s1NfTTiXW4AUv1DKy138XcKeMM_0ceo1MLq9ef4SbmtKWPbw"}
+   at CW_ToyShopping.Common.Helpers.GlobalContext.WxPush(String content) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\GlobalContext.cs:line 143
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.SentText(String content)
+   at lambda_method125(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 

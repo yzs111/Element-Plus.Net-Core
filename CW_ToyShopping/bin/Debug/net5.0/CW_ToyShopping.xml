@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CW_ToyShopping</name>
+    </assembly>
+    <members>
+        <member name="M:CW_ToyShopping.Controllers.PublicControllers.AuthorController.GetAuthorsAsync">
+            <summary>
+            查询书籍数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.PublicControllers.AuthorController.UpdateAuthor(CW_ToyShopping.Enity.PublicModels.AuthirDto)">
+            <summary>
+            修改书籍数据
+            </summary>
+            <param name="authirDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.PublicControllers.AuthorController.PrintExcel(System.Collections.Generic.List{CW_ToyShopping.Enity.PublicModels.DicModel})">
+            <summary>
+             导出Excel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CW_ToyShopping.Controllers.UserControllers.AdminController">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.ListUsers(CW_ToyShopping.Common.Helpers.Page.PageInput{CW_ToyShopping.Enity.UserModels.User})">
+            <summary>
+            获取用户信息
+            </summary>
+            <returns></returns>
+            <param name="input">查询参数</param>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.AddUserAsync(CW_ToyShopping.Enity.UserModels.UserDto)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="registerUser">请输入新增用户参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.EditUser(CW_ToyShopping.Enity.UserModels.UserDto)">
+            <summary>
+             修改用户信息
+            </summary>
+            <param name="registerUser">请输入修改的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.DeteleUser(System.String)">
+            <summary>
+             删除用户信息
+            </summary>
+            <param name="id">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.GetUserDetial(System.String)">
+            <summary>
+            获取用户详情
+            </summary>
+            <param name="UserId">用户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.UpdatePassWord(CW_ToyShopping.Enity.AdminModels.UserModels.ResetPasswordDto)">
+            <summary>
+             修改用户密码
+            </summary>
+            <param name="resetPasswordDto">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.Upload(CW_ToyShopping.Enity.AdminModels.UserModels.PhotoDto)">
+            <summary>
+            用户头像上传
+            </summary>
+            <param name="photo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.SentText(System.String)">
+            <summary>
+             向企业微信发送消息
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AdminController.KillProgram">
+            <summary>
+            结束打开的Excel进程
+            </summary>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AuthenticateController.GenerateToken(CW_ToyShopping.Enity.UserModels.loginUser)">
+            <summary>
+            输入用户名和密码,获取Token
+            </summary>
+            <param name="loginUser">请输入用户名密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AuthenticateController.ManageUserClaims(System.String)">
+            <summary>
+             获取角色申明
+            </summary>
+            <param name="RoleId">角色Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AuthenticateController.ManageUserClaims(CW_ToyShopping.Enity.UserModels.UserClaimsViewModel)">
+            <summary>
+             添加角色声明
+            </summary>
+            <param name="model">请输入添加的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.AuthenticateController.AddUserToRoleAsync(System.String,System.String)">
+            <summary>
+             用户添加角色
+            </summary>
+            <param name="userid"></param>
+            <param name="roleid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.MenusController.GetMenusList">
+            <summary>
+             获取菜单左侧菜单数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.MenusController.CreateMenu(CW_ToyShopping.Enity.AdminModels.MenuModels.MenuDto)">
+            <summary>
+            创建权限菜单
+            </summary>
+            <param name="menuDto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CW_ToyShopping.Controllers.UserControllers.RolesController">
+            <summary>
+             角色管理
+            </summary>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.RolesController.ListRoles(CW_ToyShopping.Common.Helpers.Page.PageInput{CW_ToyShopping.Enity.UserModels.Role})">
+            <summary>
+            获取角色信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.RolesController.AddRoleAsync(CW_ToyShopping.Enity.UserModels.RoleDto)">
+            <summary>
+            新增角色
+            </summary>
+            <param name="registerUser">请输入新增角色参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.RolesController.EditRole(CW_ToyShopping.Enity.UserModels.RoleDto)">
+            <summary>
+             修改角色信息
+            </summary>
+            <param name="id">用户id</param>
+            <param name="registerUser">请输入修改角色的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.RolesController.DeteleRole(System.String)">
+            <summary>
+             删除角色信息
+            </summary>
+            <param name="id">角色id</param>
+            <returns></returns>
+        </member>
+        <member name="M:CW_ToyShopping.Controllers.UserControllers.RolesController.GetRoleDetial(System.String)">
+            <summary>
+             获取角色详情
+            </summary>
+            <param name="id">角色Id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

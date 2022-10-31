@@ -1,0 +1,15 @@
+2022-05-06 14:23:45.2220 ERROR 错误消息为:Value cannot be null. (Parameter 'Test Exception') 
+ 
+2022-05-06 15:13:30.9002 FATAL 服务器发生异常:Value cannot be null. (Parameter '值不能为空,请求异常')System.ArgumentNullException: Value cannot be null. (Parameter '值不能为空,请求异常')
+   at CW_ToyShopping.Service.PublicService.AuthorService.GetAuthirList() in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\PublicService\AuthorService.cs:line 28
+   at CW_ToyShopping.Controllers.PublicControllers.AuthorController.GetAuthorsAsync() in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\PublicControllers\AuthorController.cs:line 28
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 

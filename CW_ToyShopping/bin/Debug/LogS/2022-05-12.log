@@ -1,0 +1,87 @@
+2022-05-12 09:28:34.9171 FATAL 服务器发生异常:Value cannot be null. (Parameter 'key')System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.Remove(Object key)
+   at CW_ToyShopping.Common.Cache.MemoryCache.Del(String[] key) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Cache\MemoryCache.cs:line 21
+   at CW_ToyShopping.Service.UserServices.UserService.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\UserService.cs:line 91
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-05-12 09:30:01.9422 FATAL 服务器发生异常:Value cannot be null. (Parameter 'key')System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.Remove(Object key)
+   at CW_ToyShopping.Common.Cache.MemoryCache.Del(String[] key) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Cache\MemoryCache.cs:line 21
+   at CW_ToyShopping.Service.UserServices.UserService.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\UserService.cs:line 91
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-05-12 09:35:04.9595 FATAL 服务器发生异常:Value cannot be null. (Parameter 'key')System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.Remove(Object key)
+   at CW_ToyShopping.Common.Cache.MemoryCache.Del(String[] key) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Cache\MemoryCache.cs:line 21
+   at CW_ToyShopping.Service.UserServices.UserService.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\UserService.cs:line 92
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-05-12 09:36:09.3272 FATAL 服务器发生异常:Value cannot be null. (Parameter 'key')System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.Remove(Object key)
+   at CW_ToyShopping.Common.Cache.MemoryCache.Del(String[] key) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Cache\MemoryCache.cs:line 21
+   at CW_ToyShopping.Service.UserServices.UserService.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\UserService.cs:line 92
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-05-12 09:37:19.0330 FATAL 服务器发生异常:Value cannot be null. (Parameter 'key')System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.Remove(Object key)
+   at CW_ToyShopping.Common.Cache.MemoryCache.Del(String[] key) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Cache\MemoryCache.cs:line 21
+   at CW_ToyShopping.Service.UserServices.UserService.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\UserService.cs:line 92
+   at CW_ToyShopping.Controllers.UserControllers.AdminController.EditUser(String id, RegisterUser registerUser) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\AdminController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-05-12 12:24:41.5991 FATAL 服务器发生异常:Unable to cast object of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[CW_ToyShopping.Enity.UserModels.Role]' to type 'System.Collections.Generic.List`1[CW_ToyShopping.Enity.UserModels.Role]'.System.InvalidCastException: Unable to cast object of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[CW_ToyShopping.Enity.UserModels.Role]' to type 'System.Collections.Generic.List`1[CW_ToyShopping.Enity.UserModels.Role]'.
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.Get[TItem](IMemoryCache cache, Object key)
+   at CW_ToyShopping.Common.Cache.MemoryCache.Get[T](String key) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Cache\MemoryCache.cs:line 52
+   at CW_ToyShopping.Service.UserServices.RoleService.GetRoleList() in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\RoleService.cs:line 44
+   at CW_ToyShopping.Controllers.UserControllers.RolesController.ListRoles() in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\RolesController.cs:line 29
+   at lambda_method8(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 

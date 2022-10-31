@@ -1,0 +1,89 @@
+2022-10-31 12:04:09.2343 FATAL 服务器发生异常:不合理的表达式!System.ArgumentException: 不合理的表达式!
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.GetMemberName[T,TMember](Expression`1 propertySelector) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 85
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.CreateTree[T](IList`1 list, Expression`1 idProperty, Expression`1 parentIdProperty) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 65
+   at CW_ToyShopping.Service.UserServices.MenuService.MenuDtos() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\MenuService.cs:line 36
+   at CW_ToyShopping.Controllers.UserControllers.MenusController.GetMenusList() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\MenusController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-31 12:05:00.6931 FATAL 服务器发生异常:不合理的表达式!System.ArgumentException: 不合理的表达式!
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.GetMemberName[T,TMember](Expression`1 propertySelector) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 85
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.CreateTree[T](IList`1 list, Expression`1 idProperty, Expression`1 parentIdProperty) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 65
+   at CW_ToyShopping.Service.UserServices.MenuService.MenuDtos() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\MenuService.cs:line 36
+   at CW_ToyShopping.Controllers.UserControllers.MenusController.GetMenusList() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\MenusController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-31 12:06:23.4047 FATAL 服务器发生异常:不合理的表达式!System.ArgumentException: 不合理的表达式!
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.GetMemberName[T,TMember](Expression`1 propertySelector) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 85
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.CreateTree[T](IList`1 list, Expression`1 idProperty, Expression`1 parentIdProperty) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 65
+   at CW_ToyShopping.Service.UserServices.MenuService.MenuDtos() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\MenuService.cs:line 36
+   at CW_ToyShopping.Controllers.UserControllers.MenusController.GetMenusList() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\MenusController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-31 12:07:52.7905 FATAL 服务器发生异常:不合理的表达式!System.ArgumentException: 不合理的表达式!
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.GetMemberName[T,TMember](Expression`1 propertySelector) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 85
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.CreateTree[T](IList`1 list, Expression`1 idProperty, Expression`1 parentIdProperty) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 65
+   at CW_ToyShopping.Service.UserServices.MenuService.MenuDtos() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\MenuService.cs:line 36
+   at CW_ToyShopping.Controllers.UserControllers.MenusController.GetMenusList() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\MenusController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-31 12:14:27.6357 FATAL 服务器发生异常:Specified cast is not valid.System.InvalidCastException: Specified cast is not valid.
+   at MySqlConnector.Core.Row.GetInt32(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 213
+   at MySql.Data.MySqlClient.MySqlDataReader.GetInt32(Int32 ordinal) in /_/src/MySqlConnector/MySql.Data.MySqlClient/MySqlDataReader.cs:line 232
+   at lambda_method72(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at CW_ToyShopping.Repository.BaseRepository.RepositoryBase`2.GetAllAsync() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Repository\BaseRepository\RepositoryBase.cs:line 26
+   at CW_ToyShopping.Service.UserServices.MenuService.MenuDtos() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\MenuService.cs:line 30
+   at CW_ToyShopping.Controllers.UserControllers.MenusController.GetMenusList() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\MenusController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-31 12:15:36.3507 FATAL 服务器发生异常:不合理的表达式!System.ArgumentException: 不合理的表达式!
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.GetMemberName[T,TMember](Expression`1 propertySelector) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 85
+   at CW_ToyShopping.Common.Helpers.DTreeJSONHelper.CreateTree[T](IList`1 list, Expression`1 idProperty, Expression`1 parentIdProperty) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DTreeJSONHelper.cs:line 65
+   at CW_ToyShopping.Service.UserServices.MenuService.MenuDtos() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\UserServices\MenuService.cs:line 36
+   at CW_ToyShopping.Controllers.UserControllers.MenusController.GetMenusList() in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\UserControllers\MenusController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
