@@ -1,0 +1,42 @@
+2022-07-12 18:32:42.3318 FATAL 服务器发生异常:Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCellStyle' to type 'NPOI.HSSF.UserModel.HSSFCellStyle'.System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCellStyle' to type 'NPOI.HSSF.UserModel.HSSFCellStyle'.
+   at CW_ToyShopping.Common.Helpers.ExcelHelper.RenderToExcelNew(Sheet sheetInfo) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\ExcelHelper.cs:line 296
+   at CW_ToyShopping.Common.Helpers.ExcelHelper.ToExcelByDataTable2007(DataTable dt, Dictionary`2 strColumns) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\ExcelHelper.cs:line 435
+   at CW_ToyShopping.Controllers.PublicControllers.AuthorController.PrintExcel() in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\PublicControllers\AuthorController.cs:line 46
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-07-12 18:35:01.1742 FATAL 服务器发生异常:Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCellStyle' to type 'NPOI.HSSF.UserModel.HSSFCellStyle'.System.InvalidCastException: Unable to cast object of type 'NPOI.XSSF.UserModel.XSSFCellStyle' to type 'NPOI.HSSF.UserModel.HSSFCellStyle'.
+   at CW_ToyShopping.Common.Helpers.ExcelHelper.RenderToExcelNew(Sheet sheetInfo) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\ExcelHelper.cs:line 296
+   at CW_ToyShopping.Common.Helpers.ExcelHelper.ToExcelByDataTable2007(DataTable dt, Dictionary`2 strColumns) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\ExcelHelper.cs:line 435
+   at CW_ToyShopping.Controllers.PublicControllers.AuthorController.PrintExcel() in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\PublicControllers\AuthorController.cs:line 46
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-07-12 18:52:45.9256 FATAL 服务器发生异常:Object reference not set to an instance of an object.System.NullReferenceException: Object reference not set to an instance of an object.
+   at CW_ToyShopping.Common.Helpers.ExcelHelper.RenderToExcelNew(Sheet sheetInfo) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\ExcelHelper.cs:line 266
+   at CW_ToyShopping.Common.Helpers.ExcelHelper.ToExcelByDataTable2007(DataTable dt, Dictionary`2 strColumns) in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\ExcelHelper.cs:line 429
+   at CW_ToyShopping.Controllers.PublicControllers.AuthorController.PrintExcel() in F:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\PublicControllers\AuthorController.cs:line 46
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 

@@ -1,0 +1,85 @@
+2022-10-30 18:37:12.5163 FATAL 服务器发生异常:Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.ActionResult'.System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.ActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-30 20:26:47.1773 FATAL 服务器发生异常:Type of value has a mismatch with column typeCouldn't store <0001/1/1 0:00:00 +00:00> in AuthorID Column.  Expected type is Guid.System.ArgumentException: Type of value has a mismatch with column typeCouldn't store <0001/1/1 0:00:00 +00:00> in AuthorID Column.  Expected type is Guid.
+ ---> System.ArgumentException: Type of value has a mismatch with column type
+   at System.Data.Common.ObjectStorage.Set(Int32 recordNo, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at CW_ToyShopping.Common.Helpers.DataTableHelper`1.MondelConverToDatable(List`1 model) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DataTableHelper.cs:line 58
+   at CW_ToyShopping.Service.PublicService.AuthorService.PrintAuthir(List`1 dic) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\PublicService\AuthorService.cs:line 59
+   at CW_ToyShopping.Controllers.PublicControllers.AuthorController.PrintExcel(List`1 dic) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\PublicControllers\AuthorController.cs:line 61
+   at lambda_method7(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-30 20:27:29.9497 FATAL 服务器发生异常:Type of value has a mismatch with column typeCouldn't store <0001/1/1 0:00:00 +00:00> in AuthorID Column.  Expected type is Guid.System.ArgumentException: Type of value has a mismatch with column typeCouldn't store <0001/1/1 0:00:00 +00:00> in AuthorID Column.  Expected type is Guid.
+ ---> System.ArgumentException: Type of value has a mismatch with column type
+   at System.Data.Common.ObjectStorage.Set(Int32 recordNo, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at CW_ToyShopping.Common.Helpers.DataTableHelper`1.MondelConverToDatable(List`1 model) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DataTableHelper.cs:line 58
+   at CW_ToyShopping.Service.PublicService.AuthorService.PrintAuthir(List`1 dic) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\PublicService\AuthorService.cs:line 59
+   at CW_ToyShopping.Controllers.PublicControllers.AuthorController.PrintExcel(List`1 dic) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\PublicControllers\AuthorController.cs:line 61
+   at lambda_method7(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-30 20:29:06.0555 FATAL 服务器发生异常:Type of value has a mismatch with column typeCouldn't store <0001/1/1 0:00:00 +00:00> in AuthorID Column.  Expected type is Guid.System.ArgumentException: Type of value has a mismatch with column typeCouldn't store <0001/1/1 0:00:00 +00:00> in AuthorID Column.  Expected type is Guid.
+ ---> System.ArgumentException: Type of value has a mismatch with column type
+   at System.Data.Common.ObjectStorage.Set(Int32 recordNo, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at CW_ToyShopping.Common.Helpers.DataTableHelper`1.MondelConverToDatable(List`1 model) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Common\Helpers\DataTableHelper.cs:line 58
+   at CW_ToyShopping.Service.PublicService.AuthorService.PrintAuthir(List`1 dic) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping.Service\PublicService\AuthorService.cs:line 59
+   at CW_ToyShopping.Controllers.PublicControllers.AuthorController.PrintExcel(List`1 dic) in G:\ElePhantUi-后端\CW_ToyShopping\CW_ToyShopping\Controllers\PublicControllers\AuthorController.cs:line 61
+   at lambda_method7(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 
+2022-10-30 21:19:06.3486 FATAL 服务器发生异常:Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.ActionResult'.System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.ActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted) 
+ 

@@ -1,0 +1,15 @@
+{
+  //跨域地址
+  "corUrls": [ "http://*:8070", "http://localhost:8080", "http://localhost:8080", "http://localhost:8081", "http://localhost:8082", "http://localhost:8083", "http://localhost:8085", "http://localhost:8085", "http://*:9000", "http://*:*" ],
+  // 企业微信
+  "SenparcSetting": {
+    "IsDebug": true,
+    "DefaultCacheNamespace": "DefaultCache"
+  },
+  // 企业微信详情
+  "SenparcWeixinSetting": {
+    "WeixinCorpId": "ww303c5aed9c36f771", //微信企业ID
+    "WeixinCorpAgentId": "1000002", //企业微信应用ID
+    "WeixinCorpSecret": "okfl7cStv6F7wHAgfQklH-rtjuOZl3HGsSosKe1-u6Q" //微信应用的Secret
+  }
+}
